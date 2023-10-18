@@ -7,7 +7,7 @@ console.log(num1*num2);
 console.log(num1/num2);
 
 // Ejercicio 2 concatenacion 
-let nombre =" Maximiliano Ariel "
+let nombre ="Maximiliano Ariel "
 let apellido = "Gomez"
-let nombreYapellido =( nombre + apellido )
+let nombreYapellido =(nombre + apellido )
 console.log(nombreYapellido) 
