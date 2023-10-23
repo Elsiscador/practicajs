@@ -11,7 +11,7 @@ let nombre ="Maximiliano Ariel "
 let apellido = "Gomez"
 let nombreYapellido =(nombre + apellido )
 console.log(nombreYapellido) 
-// conversion de grados C A F
+// Ejercicio 3 conversion de grados C A F
 let gradosCelsius = 30;
 let gradosFahrenheit = (gradosCelsius * 9/5) + 32;
 console.log("Grados Celsius: " + gradosCelsius);
