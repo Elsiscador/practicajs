@@ -59,3 +59,17 @@ for (let i = 0; i < frase.length; i++) {
 }
 
 console.log("Las vocales que aparecen en la frase son: " + vocales);
+// ejercicio 10
+let numerando = parseFloat(prompt("Ingresa un número:"));
+
+if (numerando % 2 === 0) {
+  console.log(numerando + " es divisible por 2");
+} else if (numerando % 3 === 0) {
+  console.log(numerando + " es divisible por 3");
+} else if (numerando % 5 === 0) {
+  console.log(numerando + " es divisible por 5");
+} else if (numerando % 7 === 0) {
+  console.log(numerando + " es divisible por 7");
+} else {
+  console.log(numerando + " no es divisible por 2, 3, 5 ni 7");
+}
