@@ -22,22 +22,21 @@ let numero3 = parseInt(prompt("Adivinaremos cual es el mayor de los 2 numeros qu
 let numero4 = parseInt(prompt("Adivinaremos cual es el mayor de los 2 numeros que elijas ahora"));
 
 if (numero3 > numero4) {
-  console.log("El primer número es mayor");
-} else if (numero4 > numero3) {
-  console.log("El segundo número es mayor");
-} 
-
+  console.log('El primer numero que es ' + numero3 + ' es mayor que ' + numero4);
+} else {
+  console.log('El segundo numero que es' + numero4 + ' es mayor que ' + numero3 )
+}
 // Ejercicio 7
 let num3 = parseInt(prompt('Adivinaremos cual es el mayor de los 3 numeros que elijas ahora'));
 let num4 = parseInt(prompt('Adivinaremos cual es el mayor de los 3 numeros que elijas ahora'))
 let num5 =parseInt(prompt('Adivinaremos cual es el mayor de los 3 numeros que elijas ahora'))
 
 if (num3 > num4 && num3 > num5){ 
-    console.log("El primer número es el mayor");
+    console.log("El primer número de los 3 es el mayor");
 }else if (num4 > num3 && num4 > num5){
-    console.log("El segundo número es el mayor");
-} else if (num5 > num3 && num5 > num4){
-    console.log('El tercer numero es mayo');
+    console.log("El segundo número de los 3 es el mayor");
+} else{
+    console.log('El tercer numero de los 3 es mayor');
 }
 
 // ejercicio 8
@@ -48,3 +47,15 @@ if (numero % 2 === 0) {
 } else {
   console.log("El número no es divisible por 2");
 }
+// Ejercicio 9 
+let frase = prompt("Ingrese una frase");
+let vocales = "";
+
+for (let i = 0; i < frase.length; i++) {
+  let caracter = frase[i].toLowerCase();
+  if (caracter === "a" || caracter === "e" || caracter === "i" || caracter === "o" || caracter === "u") {
+    vocales += caracter + " ";
+  }
+}
+
+console.log("Las vocales que aparecen en la frase son: " + vocales);
